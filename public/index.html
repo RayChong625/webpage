@@ -3,9 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- load the reset -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <!-- bring in the styling for the page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Web Page</title>
 </head>
 <body>
+    <header>
+        <!--Nav bar-->
+        <nav>
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Grid Logo" class="logo-img">
+                <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
+                <span class="grid">Grid</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="bold">How it works</a></li>
+                <li class="separator">•</li>
+                <li><a href="#" class="purple">Who we are</a></li>
+                <li class="separator">•</li>
+                <li><a href="#" class="purple">What we do</a></li>
+                <li class="separator">•</li>
+                <li><a href="#" class="purple">Contact us</a></li>
+            </ul>
+            <button class="sign-in">Sign In</button>
+        </nav>
+    </header>
+
+    <!--Info section-->
+    <div class="info-section">
+        <h1>Delivering good designs since 1954 🚚💨</h1>
+        <p class="intro-text">We're the first multi-purpose design kit solutions for businesses. We help you bridge gaps between your layouts, templates and developers to empower all involved.</p>
+        <div class="card-container">
+            <div class="card">
+                <div class="icon">
+                    <img src="assets/images/icon1.png" alt="Support Icon">
+                </div>
+                <h2>Support</h2>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="assets/images/icon2.png" alt="Sales Growth Icon">
+                </div>
+                <h2>Sales growth</h2>
+                <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="assets/images/icon3.png" alt="Components-driven Icon">
+                </div>
+                <h2>Components-driven</h2>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="assets/images/icon4.png" alt="Swap the icon Icon">
+                </div>
+                <h2>Swap the icon</h2>
+                <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+        </div>
+    </div>
     
+    <!--pricing section-->
+    <div class="pricing-section">
+        <h1>Affordable pricing</h1>
+        <p class="billing-toggle">Bill me <span class="billing-option">monthly</span> • <span class="gray">yearly</span></p>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="purple">Like a pussy</h2>
+                </div>
+                <div class="price">Free <span class="bold">/ FOREVER</span></div>
+                <ul>
+                    <li><img src="assets/images/tick1.png" alt="Tick Icon"> Components-driven system</li>
+                    <li><img src="assets/images/tick1.png" alt="Tick Icon"> Sales-boosting landing pages</li>
+                    <li><img src="assets/images/tick1.png" alt="Tick Icon"> Awesome Feather icons pack</li>
+                </ul>
+                <button class="pricing-button">Try for free</button>
+            </div>
+            <div class="pricing-card best">
+                <div class="card-header">
+                    <h2 class="purple">👤 Individual</h2>
+                    <span class="best-label">BEST!</span>
+                </div>
+                <div class="price">$24 <span class="bold">/ MONTH</span></div>
+                <ul>
+                    <li><img src="assets/images/tick2.png" alt="Tick Icon"> Components-driven system</li>
+                    <li><img src="assets/images/tick2.png" alt="Tick Icon"> Sales-boosting landing pages</li>
+                    <li><img src="assets/images/tick2.png" alt="Tick Icon"> Awesome Feather icons pack</li>
+                    <li><img src="assets/images/tick2.png" alt="Tick Icon"> Themed into 3 different styles</li>
+                    <li><img src="assets/images/tick2.png" alt="Tick Icon"> Will help to learn Figma</li>
+                </ul>
+                <button class="pricing-button primary">Regular license</button>
+            </div>
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="purple">👥 Corporate</h2>
+                </div>
+                <div class="price">$12 <span class="bold">/ EDITOR</div>
+                <ul>
+                    <li><img src="assets/images/tick3.png" alt="Tick Icon"> Components-driven system</li>
+                    <li><img src="assets/images/tick3.png" alt="Tick Icon"> Sales-boosting landing pages</li>
+                    <li><img src="assets/images/tick3.png" alt="Tick Icon"> Awesome Feather icons pack</li>
+                    <li><img src="assets/images/tick3.png" alt="Tick Icon"> Themed into 3 different styles</li>
+                </ul>
+                <button class="pricing-button">Extended license</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
